@@ -1,0 +1,32 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TransactionHolder</servlet-name>
+  	<display-name>TransactionHolder</display-name>
+  	<description></description>
+  	<servlet-class>com.daniel.servlet.TransactionHolder</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>userInformationUpdateHolder</servlet-name>
+  	<display-name>userInformationUpdateHolder</display-name>
+  	<description></description>
+  	<servlet-class>com.daniel.servlet.userInformationUpdateHolder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TransactionHolder</servlet-name>
+  	<url-pattern>/TransactionHolder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>userInformationUpdateHolder</servlet-name>
+  	<url-pattern>/userInformationUpdateHolder</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
+
